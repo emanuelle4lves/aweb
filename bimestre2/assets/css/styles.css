@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #335C67;
+
+}
+
+header{
+    background-color: #335C67;
+    padding: 20px;
+    width: 50px ;
+}

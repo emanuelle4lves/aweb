@@ -176,3 +176,16 @@ header{
     left: 525px;
     border-radius: 20px;
 }
+
+.curiosidades-list{
+    font-size: 30px;
+    color: #540B0E;
+    position: absolute;
+    top: 1400px;
+    left: 575px;
+    list-style-type: upper-roman;
+    text-align: left;
+    line-height: 2;
+}
+
+

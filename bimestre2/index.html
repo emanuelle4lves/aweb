@@ -13,28 +13,27 @@
 <body>
 
   <header>
-    <div>
       <h1 class="nome-site">Emanuelle</h1>
 
       <figure>
         <img id="logo" src="assets/img/logo-lhama.png" alt="">
-       </figure>
+      </figure> 
 
-      <nav>
-        <ul>
-          <li><a class="sobre" href="#sobre">SOBRE</a></li>
-          <li><a class="curiosidade" href="#curiosidade">CURIOSIDADES</a></li>
-          <li><a class="causos" href="#causos">CAUSOS</a></li>
-          <li><a class="portifolio" href="#portifolio">PORTIFÓLIO</a></li>
-          <li><a class="rotina" href="#rotina">ROTINA</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul>
+        <li><a class="sobre" href="#sobre"><i class="fa-solid fa-user"></i>SOBRE</a></li>
+        <li><a class="curiosidade" href="#curiosidade"><i class="fa-solid fa-star"></i>CURIOSIDADES</a></li>
+        <li><a class="causos" href="#causos"><i class="fa-solid fa-face-grin-squint"></i>CAUSOS</a></li>
+        <li><a class="portifolio" href="#portifolio"><i class="fa-solid fa-palette"></i>PORTIFÓLIO</a></li>
+        <li><a class="rotina" href="#rotina"><i class="fa-solid fa-calendar"></i>ROTINA</a></li>
+      </ul>
+    </nav>
 
     </div>
   </header>
 
 
-  <div class="hero" style="background-image: url(assets/img/image.hero1.jpg); background-repeat: no-repeat; background-size: cover;">
+  <div class="hero" style="background-image: url(assets/img/hero.jpg); background-repeat: no-repeat; background-size: cover;">
 
     <h1 class="title">De atriz a nerd em eletrônica;</h1>
     <h1 class="name"> Emanuelle Alves</h1>
@@ -47,18 +46,17 @@
     <p class="text-sobre">Me chamo Emanuelle Alves , tenho 18 anos e estudo no IFRN - Campus Ceará-Mirim no curso técnico de informática. Desde muito nova quis entrar no IF, principalmente quando ouvia meus primos falando sobre seus cursos e sobre as experiências num geral.
             Atualmente estou dando continuidade em um projeto chamado PYGREEN, o qual visa ensinar estudantes de escola pública a lidar com tecnologia, seja aprendendo a usar um mouse ou a programar.</p>
   </article>
+  <h1 id="curiosidade">Curiosidades</h1>
 
-  <div>
-    <h1 id="curiosidade">Curiosidades</h1>
-    <h1 class="quadrado1"></h1>
-    <ul class="curiosidades-list">
-      <li>Tenho cicatriz de um choque</li>
-      <li>Tenho recorde de 1 minuto em paciência</li>
-      <li>Sou fluente em espanhol</li>
-      <li>Não sei usar garfo e faca normalmente</li>
-      <li>Meu pulso direito é torto</li>
-      </ul>
-    </div>
+  <div class="list-container">
+    <ul class="styled-list">
+        <li>☀︎ Tenho cicatriz de um choque</li>
+        <li>☀︎ Tenho recorde de 1 minuto em paciência</li>
+        <li>☀︎ Sou fluente em espanhol</li>
+        <li>☀︎ Não sei usar garfo e faca normalmente</li>
+        <li>☀︎ Meu pulso direito é torto</li>
+    </ul>
+</div>
 
   <h1 id="causos">Causos</h1>
     <div class="causo">
@@ -103,7 +101,10 @@
         </div>
       </div>
 
+      <h1 id="rotina">Rotina</h1>
+
       <table>
+
         <thead>
             <tr>
                 <th class="titulo">Horário</th>
@@ -116,6 +117,7 @@
                 <th>Domingo</th>
             </tr>
         </thead>
+
         <tbody>
             <tr>
                 <th class="titulo">07:00 - 08:30</th>
@@ -123,9 +125,9 @@
                 <td>Acordar e Café da Manhã</td>
                 <td>Acordar e Café da Manhã</td>
                 <td>Acordar e Café da Manhã</td>
-                <td>Dormindo</td>
-                <td>Dormindo</td>
-                <td>Dormindo</td>
+                <td>Dormir</td>
+                <td>Dormir</td>
+                <td>Dormir</td>
             </tr>
             <tr>
                 <th class="titulo">08:30 - 10:30</th>
@@ -178,9 +180,33 @@
             </tr>
 
         </tbody>
+
     </table>
+  
+
 
 
 </body>
-
+<footer>
+  <h3>Emanuelle Alves</h3>
+  <nav>
+      <h4>Mapa do Site</h4>
+      <ul>
+          <li><a href="#sobre">Sobre Mim</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="#causos">Causos</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#rotina">Rotina</a></li>
+      </ul>
+  </nav>
+  <div class="contatos-redes">
+      <a href="mailto:emanuelle.alves@escolar.ifrn.edu.br">emanuelle.alves@escolar.ifrn.edu.br</a>
+      <div>
+          <a href="https://www.instagram.com/alvesxysz?igsh=M3Z0eXZvZHo4NTdx" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/MacPorra_?s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://open.spotify.com/user/22gp4n87cx1yz8ez4k1tdoud9?si=CybTs1J2Toa6IxERtX7tnQ" target="_blank"><i class="fab fa-spotify"></i></a>
+          
+      </div>
+  </div>
+</footer>
 </html>

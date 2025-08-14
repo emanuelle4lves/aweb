@@ -222,10 +222,10 @@ header nav li {
 #portifolio{
   font-size: 60px;
   color: #FFF3B0;
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 2850px;
-  left: 600px;
+  top: 600px;
+
 }
 
 .card1 {
@@ -270,8 +270,8 @@ header nav li {
   flex-direction: column;
   align-items: center;
   position: relative;
-  left: 26%;
-  top: 240px;
+  left: 350px;
+  top: 215px;
   background-color: #540B0E;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -293,8 +293,8 @@ header nav li {
   flex-direction: column;
   align-items: center;
   position: relative;
-  left: 51%;
-  bottom:160px ;
+  left: 700px;
+  bottom:210px ;
   background-color: #540B0E;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;

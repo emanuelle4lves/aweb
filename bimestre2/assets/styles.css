@@ -56,7 +56,7 @@ header nav li {
 }
 
 
-.sobre , .curiosidade , .causos , .portifolio , .rotina{
+.sobre , .curiosidade , .causos , .portfolio , .rotina{
     font-size: 15px;
     color: #FFF3B0;
     position: relative;
@@ -221,7 +221,7 @@ header nav li {
   font-size: 25px;
 }
 
-#portifolio{
+#portfolio{
   font-size: 60px;
   color: #E09F3E;
   position: relative;

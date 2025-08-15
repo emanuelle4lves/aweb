@@ -434,7 +434,13 @@ footer nav a:hover {
   padding-top: 15px;
 }
 
-.contatos-redes a {
+.contatos-redes h4{
+  color: #335C67;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 0 1px;
+}
+.contatos-redes a{
   color: #335C67;
   text-decoration: none;
   font-size: 1.2em;
@@ -447,7 +453,7 @@ footer nav a:hover {
   padding-top: 15px;
 }
 
-.contatos-redes a:hover {
+.contatos-redes h4:hover {
     color: #E09F3E;
 }
 
